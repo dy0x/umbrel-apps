@@ -26,5 +26,5 @@ releaseNotes: >-
   Initial release of Bisq 1.9.22 for Umbrel.
 dependencies: []
 path: ""
-defaultUsername: ""
+defaultUsername: "abc"
 defaultPassword: "bisq"

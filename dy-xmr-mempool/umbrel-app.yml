@@ -20,7 +20,8 @@ repo: https://github.com/dy0x/xmr-mempool
 support: https://github.com/dy0x/xmr-mempool/issues
 gallery: []
 releaseNotes: ""
-dependencies: []
+dependencies:
+  - monero
 path: ""
 defaultUsername: ""
 defaultPassword: ""
