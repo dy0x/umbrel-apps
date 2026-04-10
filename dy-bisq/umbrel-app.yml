@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: dy-bisq
+name: Bisq
+tagline: Trade Bitcoin for fiat and other cryptocurrencies without KYC.
+icon: https://bisq.network/images/bisq-logo.svg
+category: Finance
+version: "1.9.22"
+port: 3000
+description: >-
+  Bisq is a decentralized peer-to-peer Bitcoin exchange. Trade Bitcoin directly
+  with other people without intermediaries, KYC requirements, or centralized
+  servers.
+
+  This app runs the full Bisq desktop application in a browser-accessible
+  interface powered by KasmVNC. Open the app to interact with Bisq directly
+  from your browser.
+
+developer: Bisq Network
+website: https://bisq.network
+submitter: dy0x
+submission: https://github.com/dy0x/umbrel-apps
+repo: https://github.com/dy0x/umbrel-apps
+support: https://bisq.network/getting-started/
+gallery: []
+releaseNotes: >-
+  Initial release of Bisq 1.9.22 for Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: "bisq"
