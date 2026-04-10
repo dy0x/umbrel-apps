@@ -1,0 +1,20 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: dy-xmr-mempool_frontend_1
+      APP_PORT: 80
+
+  backend:
+    image: ghcr.io/dy0x/xmr-mempool:backend-latest
+    environment:
+      PORT: 3001
+      MONERO_NODE_1_HOST: ${MONERO_NODE_1_HOST:-xmr-node.cakewallet.com}
+      MONERO_NODE_1_PORT: ${MONERO_NODE_1_PORT:-18081}
+      MONERO_NODE_1_TLS: ${MONERO_NODE_1_TLS:-true}
+    restart: unless-stopped
+
+  frontend:
+    image: ghcr.io/dy0x/xmr-mempool:frontend-latest
+    depends_on:
+      - backend
+    restart: unless-stopped

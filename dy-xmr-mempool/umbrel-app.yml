@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: dy-xmr-mempool
+name: XMR Mempool
+tagline: Monero mempool explorer for your node
+icon: https://raw.githubusercontent.com/dy0x/xmr-mempool/master/docs/icon.png
+category: Finance
+version: "1.0.0"
+port: 80
+description: >-
+  XMR Mempool is a self-hosted Monero mempool explorer that connects directly
+  to your Umbrel Monero node. Browse pending transactions, projected mempool
+  blocks, fee estimates, and recent block history — all without leaking data
+  to a third party.
+
+developer: dy0x
+website: https://github.com/dy0x/xmr-mempool
+submitter: dy0x
+submission: https://github.com/dy0x/umbrel-apps
+repo: https://github.com/dy0x/xmr-mempool
+support: https://github.com/dy0x/xmr-mempool/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
