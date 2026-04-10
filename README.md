@@ -21,6 +21,7 @@ https://github.com/dy0x/umbrel-apps
 
 ### Bisq
 - Runs as a full desktop app inside a browser-accessible KasmVNC session
+- Default username: `abc`
 - Default password: `bisq`
 - Data is persisted across restarts
 
