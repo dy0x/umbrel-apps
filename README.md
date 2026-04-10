@@ -1,6 +1,6 @@
 # dy0x's Umbrel App Store
 
-A community app store for [Umbrel](https://umbrel.com) featuring self-hosted Bitcoin and privacy apps.
+A community app store for [Umbrel](https://umbrel.com) featuring self-hosted Bitcoin, Monero and privacy apps.
 
 ## Apps
 
@@ -25,5 +25,5 @@ https://github.com/dy0x/umbrel-apps
 - Data is persisted across restarts
 
 ### XMR Mempool
-- Connects to a Monero node via RPC — defaults to a public node (`xmr-node.cakewallet.com`)
-- To use your own node, set `MONERO_NODE_1_HOST`, `MONERO_NODE_1_PORT`, and `MONERO_NODE_1_TLS` environment variables
+- Connects directly to your Umbrel Monero node via RPC — no third-party node required
+- Requires the [Monero](https://apps.umbrel.com/app/monero) app to be installed on your Umbrel
