@@ -5,7 +5,7 @@ tagline: Trade Bitcoin for fiat and other cryptocurrencies without KYC.
 icon: https://bisq.network/images/bisq-logo.svg
 category: Finance
 version: "1.9.22"
-port: 3000
+port: 3003
 description: >-
   Bisq is a decentralized peer-to-peer Bitcoin exchange. Trade Bitcoin directly
   with other people without intermediaries, KYC requirements, or centralized

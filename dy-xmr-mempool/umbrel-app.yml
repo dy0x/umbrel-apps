@@ -5,7 +5,7 @@ tagline: Monero mempool explorer for your node
 icon: https://raw.githubusercontent.com/dy0x/xmr-mempool/master/docs/icon.png
 category: Finance
 version: "1.0.0"
-port: 80
+port: 3002
 description: >-
   XMR Mempool is a self-hosted Monero mempool explorer that connects directly
   to your Umbrel Monero node. Browse pending transactions, projected mempool
