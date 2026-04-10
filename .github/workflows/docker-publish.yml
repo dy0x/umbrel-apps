@@ -4,8 +4,7 @@ on:
   push:
     branches: ["master"]
     paths:
-      - "dy-bisq/Dockerfile"
-      - "dy-bisq/root/**"
+      - "dy-bisq/**"
   workflow_dispatch:
 
 env:
