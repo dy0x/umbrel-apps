@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: dy-bisq_web_1
-      APP_PORT: 3003
+      APP_PORT: 3000
 
   web:
     image: ghcr.io/dy0x/bisq-umbrel:1.9.22
