@@ -8,8 +8,6 @@ services:
   web:
     image: ghcr.io/dy0x/bisq-umbrel:1.9.22
     restart: on-failure
-    ports:
-      - "3000:3000"
     environment:
       - PASSWORD=bisq
       - PUID=1000
